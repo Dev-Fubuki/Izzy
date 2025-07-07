@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Sempre Comigo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hearts" id="hearts"></div>
+    
+    <div class="container">
+        <div class="card">
+            <button id="poemBtn" class="btn btn-poem">Ler Poema</button>
+            <h1>Para Sempre Comigo</h1>
+            <p class="message">Você quer passar a vida toda comigo?</p>
+            
+            <div class="buttons-container">
+                <button class="btn btn-yes" id="yesBtn">Sim</button>
+                <button class="btn btn-no" id="noBtn">Não</button>
+            </div>
+        </div>
+        
+        <div class="footer">
+            Feito com ❤️ para você, meu amor
+        </div>
+    </div>
+    
+    <div class="video-container" id="videoContainer">
+        <div class="video-wrapper">
+            <iframe id="videoPlayer" src="video/video.mp4" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <button class="close-btn" id="closeVideo">✕</button>
+        </div>
+    </div>
+    
+    <div class="message-overlay" id="messageOverlay">
+        <div class="message-content">
+            <h2>Eu te amo, Gean Soares!</h2>
+            <p>Você acabou de me fazer a pessoa mais feliz do mundo! Izzy! ❤️</p>
+            <button class="btn btn-yes" id="closeMessage">Continuar</button>
+        </div>
+    </div>
+
+    <div class="poem-modal" id="poemModal">
+        <div class="poem-content">
+            <h2>Coordenadas até você</h2>
+            <div class="poem-text">
+                <p>Realmente acho que as vezes é demais</p>
+                <p>Eu concordo com você que eu sempre quero expressar</p>
+                <p>Não pelo barulho, não,</p>
+                <p>Mas por todo o <span class="highlight-word">silêncio</span></p>
+                <br>
+                <p>Quisera eu desvendar meus sentimentos,</p>
+                <p>expor-te a <span class="highlight-word">loucura</span> que carrego:</p>
+                <p>este espelho partido onde tudo que amo em mim</p>
+                <p>reflete-se inteiro em ti.</p>
+                <br>
+                <p>E sim, eu fico bravo, E sim, eu choro. Choro feito criança</p>
+                <p>Eu não consigo aceitar fechar os olhos e perder qualquer segundo</p>
+                <p>Cada lágrima conta onde quase nos perdemos:</p>
+                <p>nas ligações frias (que cortavam em meio de gritos),</p>
+                <p>Adeuses que sangravam até a madrugada.</p>
+                <p>Mas agora enxuga meu rosto <span class="highlight-word">aquarelado,</span></p>
+                <p>e eu <span class="highlight-word">estanco teus cortes com gazes.</span></p>
+                <br>
+                <p>Nunca quis riquezas, nem Paris</p>
+                <p>Outros venderam a alma <span class="highlight-word">por ouro de tolo.</span></p>
+                <p>Meu lugar é aqui neste ponto exato</p>
+                <p>onde teu ombro encontra meu abraço.</p>
+                <p>Nenhuma fortuna compraria este <span class="highlight-word">chão</span></p>
+                <p>que pisamos juntos, descalços e confiantes.</p>
+                <br>
+                <p>E não é sobre mim ou sobre você,</p>
+                <p>É sobre o fenômeno de termos nos <span class="highlight-word">(re)encontrado</span></p>
+                <p>depois que a vida nos devolveu do caos</p>
+                <p>Você com três naufrágios nos olhos,</p>
+                <p>eu com duas almas sem naufragadas sob as ondas.</p>
+                <p>Surpresa agridoce, doce maresia:</p>
+                <p>achamos o <span class="highlight-word">porto no meio do temporal.</span></p>
+                <br>
+                <p>Os laços? Já nasceram entrelaçados</p>
+                <p>nestes dedos que teceram o destino.</p>
+                <p>Quando fugia pela <span class="highlight-word">esquerda</span>, eu corria pela <span class="highlight-word">direita</span></p>
+                <p>até que aquele ônibus nos desembarcou no mesmo ponto de partida</p>
+                <p>estação final de inseguranças e dúvidas,</p>
+                <p>estação das dores confessas,</p>
+                <p>abrigo onde despejamos</p>
+                <p>todas as luzes que nos restavam</p>
+                <br>
+                <p>Amor é uma palavra pequena e gasta</p>
+                <p>pra esse furacão que vive no meu peito, querendo gritar</p>
+                <p>Nem <span class="yaaburnee" id="yaaburnee">Ya'aburnee</span> que é quase uma prece</p>
+                <p>consegue dizer o que eu sinto.</p>
+                <p>É como terra que ninguém pisou, oceano sem cartografia</p>
+                <p>silêncio que nenhuma palavra <span class="highlight-word">ousou traduzir.</span></p>
+            </div>
+            <button class="btn btn-close-poem" id="closePoem">Fechar</button>
+        </div>
+    </div>
+
+    <div class="yaaburnee-modal" id="yaaburneeModal">
+        <div class="yaaburnee-content">
+            <h2>Ya'aburnee</h2>
+            <p><strong>Ya'aburnee</strong> (يأبورني) é uma palavra árabe que literalmente significa "você me enterra".</p>
+            <p>Mas na poesia e no uso romântico, ela expressa um desejo profundo de que a pessoa amada viva mais do que você, para que nunca tenha que suportar a dor de viver sem você.</p>
+            <p>É uma das declarações de amor mais profundas que existem.</p>
+            <button class="btn btn-close-yaaburnee" id="closeYaaburnee">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
